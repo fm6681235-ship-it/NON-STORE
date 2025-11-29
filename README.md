@@ -9,7 +9,7 @@
         <a href="https://www.tiktok.com/@non.store591?_r=1&_t=ZS-91oAuKNLuKL" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
     </div>
 </footer>
-<!DOCTYPE html>
+<NON STORE>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
