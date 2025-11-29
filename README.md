@@ -1,3 +1,14 @@
+<footer>
+    <p>&copy; 2025 NON STORE. كل الحقوق محفوظة.</p>
+    <div class="social-icons">
+        
+        <a href="https://www.facebook.com/non.store.923950?mibextid=ZbWKwL" target="_blank" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+        
+        <a href="https://www.instagram.com/non.store_7?igsh=cmIycmViNzI2bXYw" target="_blank" aria-label="انستغرام"><i class="fab fa-instagram"></i></a>
+        
+        <a href="https://www.tiktok.com/@non.store591?_r=1&_t=ZS-91oAuKNLuKL" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+    </div>
+</footer>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -465,7 +476,22 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (!selectedSizeButton) {
                 alert('الرجاء اختيار المقاس أولاً!');
-                return;
+                 <nav>
+        <div class="logo">NON STORE</div>
+        <ul class="nav-links">
+            <li><a href="#hero">الرئيسية</a></li>
+            <li><a href="#products">المنتجات</a></li>
+            <li><a href="#features">لماذا نون ستور؟</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+            
+            <li><a href="https://www.instagram.com/non.store_7?igsh=cmIycmViNzI2bXYw" target="_blank" aria-label="انستغرام"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com/@non.store591?_r=1&_t=ZS-91oAuKNLuKL" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="https://www.facebook.com/non.store.923950?mibextid=ZbWKwL" target="_blank" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a></li>
+            
+            <li><a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i> (0)</a></li>
+        </ul>
+    </nav>
+   return;
             }
             
             const productName = productCard.querySelector('h3').textContent;
